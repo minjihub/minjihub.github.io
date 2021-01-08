@@ -1,0 +1,18 @@
+nav:
+  - title: "Services"
+    section: services
+
+  - title: "Career"
+    section: portfolio
+
+  - title: "About"
+    section: timeline
+
+  - title: "Profile"
+    section: team
+
+  - title: "Contact"
+    section: contact
+
+  - title: "Source"
+    url: https://github.com/minjihub

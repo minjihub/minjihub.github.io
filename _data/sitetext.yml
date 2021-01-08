@@ -1,0 +1,126 @@
+header:
+    title: Welcome to my Portfolio!
+    text: 안드로이드 개발자 박민지입니다.
+    button: More
+    buttonlink: "#services"
+
+services:
+    title: "SKILLS"
+    text: "사용 언어"
+    section: services
+    list:
+      - title: "JAVA"
+        desc: "Collection Framework, Multi Thread"
+        icon: fab fa-java #find more at https://fontawesome.com/icons
+      - title: "Kotlin"
+        desc: "Scope Functions, Closer"
+        icon: fab fa-korvue
+      - title: "Android"
+        desc: "Android Studio, XML, Constraint Layout, Data Binding, Retrofit2(Network), Gson, UnitTest"
+        icon: fab fa-android
+
+portfolio:
+    title: "Career"
+    text: "경력사항"
+    section: portfolio
+    closebutton: "Close"
+
+
+timeline:
+    title: "About"
+    text: "타임라인"
+    section: timeline
+    # left is the default
+    #start_align: "left"
+    events:
+      - title: "스윗트래커, app '스마트택배'"
+        year: "2019.02 - 2020.10"
+        desc: "'스마트택배' 리팩토링 <br> "
+        image: assets/img/timeline/1.jpg
+        alt:
+      - title: "한양여자대학교 졸업"
+        year: "2019.02"
+        desc: "정보경영과, 현 스마트IT과 <br> 최종 학점 4.34, 차석 졸업 <br> 취업역량개발 우수상 <br> 표창장 수상"
+        image: assets/img/timeline/2.jpg
+        alt:
+      - title: "졸업작품전, app '버스킹타운'"
+        year: "2018.11"
+        desc: "버스킹 채널 플랫폼 <br> 버스커들의 채널 생성 및 위치공개로 <br> 팬들과 소통의 장이 되어줄 앱 개발 <br> 콘서트장/연습실 예약 서비스 제공 <br> 최종 <은상> 수상"
+        image: assets/img/timeline/3.jpg
+        alt: image alt text
+      - title: "SCK 특성화사업 <br> 창업아이디어 경진대회"
+        year: "2018.10 / 2017.11"
+        desc: "2018 창업아이템 우수상 <br> 2017 창업아이템 장려상 <br> 운동기관 플랫폼 앱 아이템 기획"
+        image: assets/img/timeline/4.jpg
+        alt:
+      - title: "ebay korea"
+        year: "2016.10 - 2017.08"
+        desc: "G9 디지털팀"
+        image: assets/img/timeline/5.jpg
+        alt:
+      - title: "Adobe 자격증 취득"
+        year: "2016.05 / 2014.08"
+        desc: "2016 Adobe illustrator 취득 <br> 2014 GTQ 포토샵 자격증 취득"
+        image: assets/img/timeline/6.jpg
+        alt:
+        # you can enforce the aligment
+        align: right
+    end: "Be Part <br> of Our <br> Story!"
+
+about:
+    title: "About Us"
+    text: "our story"
+    section: about
+
+clients:
+    section: clients
+    max-height: 100px
+    horizontal-scrolling: "" #"yes/no"
+    list:
+      - title: "envato"
+        url:
+        logo: assets/img/clients/envato.jpg
+      - title: "designmodo"
+        url:
+        logo: assets/img/clients/designmodo.jpg
+      - title: "themeforest"
+        url:
+        logo: assets/img/clients/themeforest.jpg
+      - title: "Creative Market"
+        url:
+        logo: assets/img/clients/creative-market.jpg
+
+team:
+    title: "PROFILE"
+    text: "안드로이드 개발을 꿈꾸고 실행합니다."
+    subtext: 플랫폼부터 앱, 웹 디자인, 개발 그리고 전자상거래까지 다양한 방면의 IT 경험과 함께 <br> 커뮤니케이션을 중요시 하는 **안드로이드 개발자**입니다.
+    section: team
+    people:
+      - name: "박 민 지"
+        role: "Android dev."
+        image: assets/img/team/2.jpg
+        social:
+          - url: https://github.com/minjihub
+            icon: fab fa-github
+          - url: https://www.rocketpunch.com/@7a203503
+            icon: fas fa-rocket
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+
+
+contact:
+    title: "Contact Me"
+    text: ""
+    section: contact
+
+footer:
+    legal: "Privacy Policy"
+    social:
+      - url: https://github.com/minjihub
+        icon: "fab fa-github"
+
+      - url: https://www.rocketpunch.com/@7a203503
+        icon: fas fa-rocket
+
+
+# {{ site.data.sitetext.ex.ex | markdownify | default: example }}
