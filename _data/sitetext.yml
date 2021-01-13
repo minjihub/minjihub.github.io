@@ -16,7 +16,7 @@ services:
         desc: "Scope Functions, Closer"
         icon: fab fa-korvue
       - title: "Android"
-        desc: "Android Studio, XML, Constraint Layout, Data Binding, Retrofit2(Network), Gson, UnitTest"
+        desc: "XML, Constraint Layout, Data Binding, UnitTest, Firebase Crashlytics"
         icon: fab fa-android
 
 portfolio:
