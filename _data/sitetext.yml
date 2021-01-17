@@ -10,10 +10,10 @@ services:
     section: services
     list:
       - title: "JAVA"
-        desc: "Collection Framework, Multi Thread"
+        desc: ""
         icon: fab fa-java #find more at https://fontawesome.com/icons
       - title: "Kotlin"
-        desc: "Scope Functions, Closer"
+        desc: ""
         icon: fab fa-korvue
       - title: "Android"
         desc: "XML, Constraint Layout, Data Binding, UnitTest, Firebase Crashlytics"
